@@ -1,0 +1,27 @@
+
+设计模式六大原则:
+
+1. 单一原则; Single Responsibility Principle
+一个类或者一个方法只负责一项职责, 尽量做到类的只有一个行为原因引起变化
+a. 业务对象(BO bussiness object) b. 业务逻辑(BL business)拆分
+
+2. 里氏替换原则; LSP liskov substitution principle
+子类可以扩展父类的功能, 但不能改变原有父类的功能(本质就是c++的多态)
+目的: 增强程序的健壮性. 在实际项目中, 每个子类对应不同的业务含义, 使父类作为参数,
+传递不同的子类完成不同的业务逻辑.
+
+3. 依赖倒置原则; dependence inversion principle
+面向接口编程.
+
+
+4. 接口隔离原则; interface segregation principle
+建立单一接口;
+
+5. 迪米特原则; law of demeter LOD
+最少知道原则, 尽量降低类与类之间的耦合
+
+6. 开闭原则。open closed principle
+对扩展开放, 对修改关闭。在程序需要进行拓展的时候, 不能去修改原有的代码, 实现一个热插拔的效果.
+换言之, 是为了使程序的扩展性好, 易于维护和升级。想要达到这样的效果, wo
+
+
